@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Paquete_examen;
 
 public class OrderDetails {
@@ -11,6 +7,19 @@ public class OrderDetails {
     private int Quantify;
     private float unitCoast;
     private float subCoast;
+
+    private Customer customer;
+    
+    public OrderDetails(int orderID, int productID, String productName, int Quantify, float unitCoast, float subCoast) {
+        this.orderID = orderID;
+        this.productID = productID;
+        this.productName = productName;
+        this.Quantify = Quantify;
+        this.unitCoast = unitCoast;
+        this.subCoast = subCoast;
+    }
+    
+    
     
     public void calcPrice()
     {
