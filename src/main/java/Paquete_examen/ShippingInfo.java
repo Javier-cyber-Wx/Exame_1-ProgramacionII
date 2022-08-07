@@ -6,7 +6,7 @@ public class ShippingInfo {
     private String shippingType;
     private int shippingRegionID;
 
-    private Customer customer;
+    private Order_1 order;
     
     public ShippingInfo(int shippingID, String shippingType, int shippingRegionID) {
         this.shippingID = shippingID;

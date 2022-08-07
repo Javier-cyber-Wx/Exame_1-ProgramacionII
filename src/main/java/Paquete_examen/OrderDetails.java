@@ -8,7 +8,7 @@ public class OrderDetails {
     private float unitCoast;
     private float subCoast;
 
-    private Customer customer;
+    private Order_1 order;
     
     public OrderDetails(int orderID, int productID, String productName, int Quantify, float unitCoast, float subCoast) {
         this.orderID = orderID;
